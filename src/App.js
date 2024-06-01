@@ -1,5 +1,5 @@
 import './App.css';
-import { Calendar } from './components/Calendar';
+import { Calendar } from './components/Calendar.js';
 
 function App() {
   const now = new Date(2017, 2, 8);

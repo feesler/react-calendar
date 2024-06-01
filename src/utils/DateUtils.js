@@ -1,4 +1,4 @@
-import { MondayBasedWeek } from './MondayBasedWeek';
+import { MondayBasedWeek } from './MondayBasedWeek.js';
 
 export class DateUtils {
   static locales = ['ru-RU'];

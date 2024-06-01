@@ -7,20 +7,22 @@
   },
   "version": "0.1.0",
   "description": "React functional component Calendar",
-  "homepage": "https://henryfeesler.com/netology/01/react-calendar",
+  "homepage": "https://henryfeesler.com/projects/netology/01/react-calendar",
   "private": true,
+  "type": "module",
   "dependencies": {
-    "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^14.2.1",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^14.3.1",
     "@testing-library/user-event": "^14.5.2",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "node ./scripts/deploy.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -42,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@jezvejs/release-tools": "^0.5.1",
+    "dotenv": "^16.4.5"
   }
 }

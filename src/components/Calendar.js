@@ -1,8 +1,8 @@
 import { PropTypes } from 'prop-types';
-import { CalendarHeader } from './CalendarHeader';
-import { CalendarWeekday } from './CalendarWeekday';
-import { CalendarDay } from './CalendarDay';
-import { DateUtils } from '../utils/DateUtils';
+import { CalendarHeader } from './CalendarHeader.js';
+import { CalendarWeekday } from './CalendarWeekday.js';
+import { CalendarDay } from './CalendarDay.js';
+import { DateUtils } from '../utils/DateUtils.js';
 
 export function Calendar(props) {
   const { date } = props;

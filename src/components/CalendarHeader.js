@@ -1,5 +1,5 @@
 import { PropTypes } from 'prop-types';
-import { DateUtils } from '../utils/DateUtils';
+import { DateUtils } from '../utils/DateUtils.js';
 
 export function CalendarHeader(props) {
   const { date } = props;
